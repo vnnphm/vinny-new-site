@@ -12,6 +12,7 @@ const status = document.querySelector('#playerStatus');
 const playBtn = document.querySelector('#playBtn');
 const audio = new Audio('station/station.mp3');
 audio.loop = true;
+audio.volume = 0.15;
 let playing = false;
 let dotInterval;
 const dots = document.querySelectorAll('.player-dot');
