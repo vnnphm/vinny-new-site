@@ -582,7 +582,14 @@ body {
     flex-shrink: 0;
 }
 
-.contact-btn {
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.contact-btn,
+.github-btn {
     display: inline-block;
     background: #003499;
     color: #fff;
@@ -595,6 +602,14 @@ body {
 }
 
 .contact-btn:hover {
+    background: #002277;
+}
+
+.github-btn {
+    background: #003499;
+}
+
+.github-btn:hover {
     background: #002277;
 }
 
@@ -707,5 +722,3 @@ footer.footer {
     width: auto;
     mix-blend-mode: multiply;
 }
-
-
