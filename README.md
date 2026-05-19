@@ -4,11 +4,15 @@ My Portfolio Website!
 ********************
 **Features**
 Seoul Metro inspired UI — color palette, typography, and layout directly inspired by the Seoul Metropolitan Subway system
-Seoul Alrim font (서울알림체) — official Seoul city government font used for all signage and headings, with four weights (Medium, Bold, ExtraBold, Heavy)
-NanumGothic fallback — Korean web font loaded from Naver's font CDN as a fallback
+
+Seoul Alrim font (서울알림체) — official Seoul city government font used for all signage and headings
+
 Line number badges — colored circular badges matching the exact colors of Seoul Metro lines 1–6
+
 Station name sign — hero section features a bordered sign styled like real Seoul subway platform signs, with Korean and English text
+
 Direction bar — animated stop indicator mimicking the overhead track direction signs found in Seoul stations
+
 Wayfinding signs — three-panel sign row with arrows styled after the directional signage in Seoul subway stations
 *******************************************************************************************************************
 **Pages**
