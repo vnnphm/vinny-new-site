@@ -456,6 +456,25 @@ body {
     color: #111;
 }
 
+.info-val-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.line-badge-inline {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    font-size: 10px;
+    cursor: default;
+}
+
+.line-badge-inline:hover {
+    transform: none;
+}
+
 .info-val a {
     color: #003499;
     text-decoration: none;

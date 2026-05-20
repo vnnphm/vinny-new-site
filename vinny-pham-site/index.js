@@ -20,8 +20,8 @@ const dots = document.querySelectorAll('.player-dot');
 playBtn.onclick = function() {
     if (!playing) {
         audio.play();
-        playBtn.textContent = '■ 승강장 음악 / Platform Music';
-        status.textContent = '재생 중 / Playing';
+        playBtn.textContent = '■ Platform Music';
+        status.textContent = 'Playing';
         status.classList.add('playing');
         dotInterval = setInterval(() => {
             dots.forEach(d => d.classList.remove('active'));
@@ -30,8 +30,8 @@ playBtn.onclick = function() {
     } else {
         audio.pause();
         audio.currentTime = 0;
-        playBtn.textContent = '▶ 승강장 음악 / Platform Music';
-        status.textContent = '정지 / Stopped';
+        playBtn.textContent = '▶ Platform Music';
+        status.textContent = 'Stopped';
         status.classList.remove('playing');
         clearInterval(dotInterval);
         dots.forEach(d => d.classList.remove('active'));
